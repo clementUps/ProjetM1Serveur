@@ -1,10 +1,9 @@
 'use strict';
 
 
-angular.module('core').controller('HomeController', ['$scope', 'Authentication','image',
+angular.module('core').controller('HomeController', ['$scope', 'Authentication',
 	function($scope, Authentication) {
 		// This provides Authentication context.
-		$scope.image = image;
 		$scope.authentication = Authentication;
 	}
 ]);
